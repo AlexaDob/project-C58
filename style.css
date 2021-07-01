@@ -1,0 +1,111 @@
+body{
+  text-align: center;
+
+}
+#star{
+    height: 700px
+}
+#bio{
+  font-size:22px;
+  font-weight: bold;
+  margin: 20px;
+
+}
+#line{
+  width:100px;
+  height:10px;
+  background: black;
+}
+.menu {
+    list-style: none;
+    right:1;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    top: -15px;
+    background: White;
+    text-align: center;
+    margin-left: 200px;
+}
+
+
+.links {
+    float: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 9px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.links:hover{
+    background-color: skyblue;
+    font-size: 25px;
+    font-family: cursive;
+}
+.image{
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid;
+    padding: 5px
+}
+.paragraph{
+    color: darkcyan;
+}
+.paragraph:hover{
+    background-color: aquamarine;
+}
+html{
+    scroll-behavior: smooth;
+}
+.line{
+    height: 8px;
+  background: black;
+    width: 200px
+}
+#contact{
+ 
+    margin-top: 20px;
+    background-color: paleturquoise;
+}
+#favorite_art{
+
+    margin-top: 20px;
+}
+#inspiration{
+    margin-top: 20px;
+    background-color: paleturquoise;
+
+}
+#videos{
+
+    margin-top: 20px;
+    background-color: paleturquoise;
+}
+#my_work{
+
+    margin-top: 20px;
+}
+#videos{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    transition: transform.2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#home{
+    background-color: paleturquoise;
+}
+
+   
